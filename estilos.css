@@ -1,0 +1,223 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+ background-color: darkslategray;
+ color: white;
+ padding-top: 1em;
+ padding-bottom: 1em;
+ width: 100%;
+}
+
+header img{
+width: 50px;
+margin-left: 48%;
+margin-top: 1%;
+border-radius: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+}
+section{
+    width: 70%;
+    margin: 0 auto;
+}
+article{
+    padding: 20px 0 20px 0;
+    border-bottom: 1px dotted darkgrey;
+}
+
+article h2{
+    float: left;
+    border-bottom: 2px solid cadetblue;
+    padding-bottom: 5px;
+    line-height: 1.4em;
+    font-size: 1em;
+    text-transform: uppercase;
+
+}
+
+article p{
+    margin-left: 20%;
+    
+    text-align: inherit;
+}
+
+article p, article ul{
+    margin-left:  40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkslategray ;
+    line-height: 1.3em;
+    margin-bottom: 1.6em;
+}
+
+article ul li{
+ margin-left: 15px;
+ list-style: square;
+
+}
+
+footer{
+    margin-top: 3em;
+    background-color: darkslategray;
+    padding: 1em;
+    width: 100%;
+    color: azure;
+text-align: center;
+}
+
+footer a:link, footer a:visited{
+    color:orange;
+    FONT-SIZE: 30PX;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+
+
+body{
+    height: 100%; 
+    font-family: 'Noto Sans', sans-serif;
+ 
+  }
+
+  .contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #010101; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #020202; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center; 
+  text-align: center;
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+
+
+
+span{
+  color: #ffc90e; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+      text-align: center;
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+.experiencia{
+    margin: 0px;
+}
+
+.tex{
+color: white;
+}
