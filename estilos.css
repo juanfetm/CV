@@ -1,8 +1,25 @@
 
 *{
     margin: 3%;
-    padding: 0;
+    padding: 03;
+color: white;
+}
 
+
+div.separ section.izq img.datos{
+  float: left;
+  margin-right: 15px;
+}
+
+
+.datos{
+  width: 30PX;
+margin-top: 1%;
+}
+
+div.separ img.datos{
+  float: left;  
+margin-right: 15px;
 }
 
 .container{
@@ -13,15 +30,24 @@
   flex: 1;
 }
 
+.separ{
+  display: flex;
+}
+
+.izq, .derec{
+  flex: 1;
+}
+
 .left{
   background:darkslategray;
 }
-.right{
-  background: blue;
+
+.subtitulo{
+  color:yellow;
+  text-align: inherit;
 }
 
 header{
- background-color: darkslategray;
  color: white;
  padding-top: 1em;
  padding-bottom: 1em;
@@ -29,8 +55,8 @@ header{
 }
 
 header img{
-width: 50px;
-margin-left: 48%;
+  width: 200PX;
+  margin-left: 33%;
 margin-top: 1%;
 border-radius: 100%;
 }
@@ -44,6 +70,10 @@ h2{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.1em;
+}
+.Contact{
+  color:black;
+  font-size: 2.3rem;
 }
 section{
     width: 70%;
