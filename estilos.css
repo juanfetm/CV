@@ -1,8 +1,23 @@
 
 *{
-    margin: 0;
+    margin: 3%;
     padding: 0;
 
+}
+
+.container{
+  display: flex;
+}
+
+.left, .right{
+  flex: 1;
+}
+
+.left{
+  background:darkslategray;
+}
+.right{
+  background: blue;
 }
 
 header{
@@ -40,12 +55,12 @@ article{
 }
 
 article h2{
-    float: left;
-    border-bottom: 2px solid cadetblue;
+    border-bottom: 2px solid white;
     padding-bottom: 5px;
     line-height: 1.4em;
     font-size: 1em;
     text-transform: uppercase;
+    color: white;
 
 }
 
@@ -58,7 +73,7 @@ article p{
 article p, article ul{
     margin-left:  40%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:darkslategray ;
+    color:white ;
     line-height: 1.3em;
     margin-bottom: 1.6em;
 }
