@@ -6,6 +6,7 @@ color: white;
 }
 
 
+
 div.separ section.izq img.datos{
   float: left;
   margin-right: 15px;
@@ -54,12 +55,17 @@ header{
  width: 100%;
 }
 
+
 header img{
-  width: 200PX;
-  margin-left: 33%;
-margin-top: 1%;
-border-radius: 100%;
+  width: 100PX;
+  margin-top: 1%;
+  border-radius: 100%;
+  max-width: 200px;
 }
+.ad{
+  text-align: center;
+}
+
 
 h1{
     text-align: center;
@@ -67,7 +73,6 @@ h1{
     font-size: 2em;
 }
 h2{
-    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.1em;
 }
@@ -97,7 +102,7 @@ article h2{
     font-size: 1em;
     text-transform: uppercase;
     color: white;
-
+ 
 }
 
 article p{
@@ -156,26 +161,28 @@ body{
   background-color: #fbfbfb; 
   padding-left: 30px; 
 }
-
+label{
+  color: black;
+}
 
 input{
   background-color: #fbfbfb; 
-  width: 408px; 
-  height: 40px; 
-  border-radius: 5px;  
+  width: 300px;
+  border-radius: 10px;  
   border-style: solid; 
-  border-width: 1px; 
+  border-width: 2px; 
   border-color: #010101; 
   margin-top: 10px;  
   padding-left: 10px;
   margin-bottom: 20px; 
   color: black;
+  
 }
 
 
 textarea{
   background-color: #fbfbfb; 
-  width: 405px; 
+  width: 300px; 
   height: 150px; 
   border-radius: 5px;  
   border-style: solid; 
@@ -185,13 +192,13 @@ textarea{
   padding-left: 10px;
   margin-bottom: 20px; 
   padding-top: 15px; 
+  color: black;
 }
 
 
 label{
   display: block; 
-  float: center; 
-  text-align: center;
+
 }
 
 
@@ -210,9 +217,6 @@ button{
 }
 
 
-
- 
-}
 span{
   color: #ffc90e; 
 }
@@ -242,7 +246,6 @@ h3{
 p{
   font-size: 14px; 
   color: #0e0e0e; 
-      text-align: center;
 }
 
 
@@ -274,3 +277,61 @@ p{
 .tex{
 color: white;
 }
+
+
+
+
+.en{
+  color:black;
+  }
+  
+  .es{
+  color: black;
+  }
+
+
+  .check{
+    position:relative; 
+    width: 50px;
+  }
+
+  .check:before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+
+  }
+  
+  .check:after{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid #333;
+    box-sizing: border-box;
+  }
+
+  .check:checked:after{
+    left: 25%;
+    border: 2px solid black;
+    background: white;
+  }
+  .check:checked:before{
+    right: 25%;
+    border: 2px solid aqua;
+    background: aqua;
+  }
+
+  .check:after  {
+    background: aqua;
+
+  }
+
+  .languages{
+    text-align: right;
+  }

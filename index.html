@@ -1,25 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="hoja de vida">
     <meta name="keywords" content="hoja de vida,cv,js,html,fronted,html,css"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos.css">
-
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
     
     <title>Hoja de vida</title>
 </head>
 <body>
+
+  <div class="languages">
+    <span class="es">Español</span>
+    <input type="checkbox" class="check"> 
+    <span class="en">English</span>
+  </div>
+ 
+  
    
+
+
 <div class="container">
 
     <section class="left">
       <header>
         <h1>Juan Felipe Torralba Montes </h1>
-        <h2>Front End Developer</h2>
-        <img src="./welcome.png" alt="">
+        <div class="ad">
+          <h2>Front End Developer</h2>
+          <img src="./welcome.png" alt="">
+        </div>
+   
     </header>
 
 
@@ -27,10 +40,10 @@
       <section class="izq">
 
         <img  class="datos" src="./Iconos/ubicacion.png"  alt="ubicacion">  
-        <aside>Pensilvania, Caldas</aside>
+        <aside>Pensilvania, Caldas Colombia</aside>
         <br>
         <img class="datos"src="./Iconos/telefono.png" alt="telefono">
-        <aside> 3224632668</aside>
+        <aside> +57 3224632668</aside>
         <br>  
         <img class="datos" src="./Iconos//correo.png" alt="correo">
         <aside>felipemontesjt200@</aside>  
@@ -74,99 +87,81 @@
 
         <article>
           <h2 class="subtitulo">mi formacion</h2>
-        <ul>
+          <p>
             <li>Fronted developer </li>
             <li>Tecnico en sistemas operaciones basicas de sistemas informaticos.  </li>
-            <li>Excel avanzado </li>
-        </ul>
+            <li>Excel intermedio  </li>
+          </p>
+    
       </article>
           <article>
           <h2 class="subtitulo">Cursos</h2>
-        <ul>
-          <li>Vue.js y Firebase</li>
-          <li>Vue.js</li>
-          <li>JavaScript</li>
-          <li>HTML y CSS</li>
-          <li>Git y GitHub</li>
-          <li>Vue.js Introducción y Fundamentos</li>
-          <li>Fundamentos de Pruebas de Software</li>
-          <li>Manipulación de Arrays en JavaScript</li>
-          <li>Básico de JavaScript</li>
-          <li>CSS Grid Básico</li>
-          <li>Diseño de Interfaces</li>
-          <li>Fundamentos de Diseño de Interfaces UI y UX</li>
-          <li>Introducción a la Web Historia y Funcionamiento de Internet</li>
-          <li>Básico de Algoritmos y Pensamiento Lógico</li>
-          <li>Historia de la Programación Lenguajes y Paradigmas</li>
-            <li>Excel basico</li>
-          <li>Excel intermedio</li>
-          <li>Excel avanzado</li>
-          <li>Diplomado en aplicaciones moviles</li>
-          <li>lidergo</li>
-        </ul>
+            <p>
+              <li>Vue.js y Firebase</li>
+              <li>Vue.js</li>
+              <li>JavaScript</li>
+              <li>HTML y CSS</li>
+              <li>Git y GitHub</li>
+              <li>Vue.js Introducción y Fundamentos</li>
+              <li>Fundamentos de Pruebas de Software</li>
+              <li>Manipulación de Arrays en JavaScript</li>
+              <li>Básico de JavaScript</li>
+              <li>CSS Grid Básico</li>
+              <li>Diseño de Interfaces</li>
+              <li>Fundamentos de Diseño de Interfaces UI y UX</li>
+              <li>Introducción a la Web Historia y Funcionamiento de Internet</li>
+              <li>Básico de Algoritmos y Pensamiento Lógico</li>
+              <li>Historia de la Programación Lenguajes y Paradigmas</li>
+              <li>Excel basico</li>
+              <li>Excel intermedio</li>
+              <li>Diplomado en aplicaciones moviles</li>
+            </p>
+  
+      
       </article>
       </section>
 
-      
+  
+
+      <!-- //formulario -->
 
         <section class="right">
 
-          <h2 class="Contact">Contact Me</h2>
+
+
+
+
+          <h2 class="Contact">Contactame</h2>
         <br>
-    <div class="formulario">      
-        <form action="submeter-formulario.php" method="post">       
+ 
 
-          
-              <p>
-                <label  class="Contacc" for="nombre" class="colocar_nombre">Nombre:
-                  <span class="obligatorio">*</span>
-                </label>
-                  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-              </p>
-            
-              <p>
-                <label class="Contacc" for="email" class="colocar_email">Email:
-                  <span class="obligatorio">*</span>
-                </label>
-                  <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-              </p>
-          
-              <p>
-                <label class="Contacc" for="telefone" class="colocar_telefono">Teléfono:
-                </label>
-                  <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-              </p>    
-              <p>
-                <label class="Contacc" for="asunto" class="colocar_asunto">Asunto:
-                  <span class="obligatorio">*</span>
-                </label>
-                  <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-              </p>    
-            
-              <p>
-                <label class="Contacc" for="mensaje" class="colocar_mensaje">Mensaje:
-                  <span class="obligatorio">*</span>
-                </label>                     
-                                  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                              </p>                
-                              
-                              <p>
-                                     <button class="enviar">enviar</button>
-                              </p>
-                 
-
-              <p class="aviso">
-                <span class="obligatorio"> * </span>los campos son obligatorios.
-              </p>          
-          
-        </form>
-  </div>  
-        </section>
-      
-</div>
+        <form action="https://formsubmit.co/felipemontesjt200@gmail.com" method="POST" />
+          <label for="email">Nombre *</label>
+          <input type="text" id="email" name="name" required minlength="3" name="name" required maxlength="40" placeholder="Escribe tu nombre">
 
 
-    
+          <label for="name">Correo *</label>
+          <input type="email" id="name" name="email" required placeholder="Escribe tu correo">
+
+        
+          <p>
+            <label class="Contacc" for="mensaje" class="colocar_mensaje">Mensaje:
+              <span class="obligatorio">*</span>
+            </label>                     
+                              <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu mensaje."></textarea> 
+                          </p>                
+                          
+                          <p>
+                               <input type="submit" onclick= " " value="Enviar"> 
+                          </p>
+             
+
+          <p class="aviso">
+            <span class="obligatorio"> * </span>los campos son obligatorios.
+           
+</p>
+
+   <script src="./app.js"></script>
  
 
 </body>
